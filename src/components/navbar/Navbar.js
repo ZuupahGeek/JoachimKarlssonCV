@@ -5,7 +5,10 @@ import Headshot from '../../assets/navbar-headshot.png'
 import { HashLink } from 'react-router-hash-link';
 
 
-
+let activeStyle = {
+  textDecoration: "underline",
+  color: "green",
+};
 
 
 
@@ -28,7 +31,9 @@ const Navbar = () => {
       </div>
       <ul className='navbar-links'>
         <li>
-          <HashLink smooth to="/#home">
+          <HashLink smooth to="/#home" 
+          // style={({ isActive }) => isActive ? activeStyle : undefined}
+          >
             <i className="fa-solid fa-house"></i> <span>Home</span>
           </HashLink>
         </li>
