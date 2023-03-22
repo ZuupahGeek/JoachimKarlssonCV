@@ -1,5 +1,20 @@
 .resume-page {
+
     padding-top: 4rem;
-    margin-left: 18rem;
+    padding-left: 21rem;
+    padding-bottom: 5rem;
     background-color: aliceblue;
+}
+.resume-page > h1{
+    z-index: 3;
+    padding-bottom: 0.4rem;
+    width: 4rem;
+    border-bottom: 3px solid rgb(0, 2, 20);
+
+}
+.resume-components {
+    /* border: 1px solid black; */
+    padding-top: 1rem;
+    margin: auto;
+    display: flex;  
 }

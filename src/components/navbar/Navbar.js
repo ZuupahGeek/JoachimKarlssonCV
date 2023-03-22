@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
 import Headshot from '../../assets/navbar-headshot.png'
 import { HashLink } from 'react-router-hash-link';
@@ -31,8 +31,8 @@ const Navbar = () => {
       </div>
       <ul className='navbar-links'>
         <li>
+          
           <HashLink smooth to="/#home" 
-          // style={({ isActive }) => isActive ? activeStyle : undefined}
           >
             <i className="fa-solid fa-house"></i> <span>Home</span>
           </HashLink>

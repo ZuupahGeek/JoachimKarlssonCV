@@ -1,9 +1,18 @@
 import React from 'react'
+import JobComponent from '../components/Resume/JobComponent'
+// import ResumeComponent from '../components/Resume/ResumeComponent'
+import SchoolComponent from '../components/Resume/SchoolComponent'
 import './Resume.css'
 
 const Resume = () => {
   return (
-    <div className='resume-page'>Resume</div>
+    <div className='resume-page'>
+      <h1>Resume</h1>
+      <div className='resume-components'>
+        <SchoolComponent />
+        <JobComponent />
+      </div>
+    </div>
   )
 }
 

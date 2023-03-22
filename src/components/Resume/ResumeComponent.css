@@ -1,0 +1,28 @@
+.card {
+    margin-bottom: 1rem;
+    padding-right: 10rem;
+    /* border: 1px solid black; */
+    width: 22rem;
+}
+.card-content h2 {
+    font-size: 1rem;
+}
+.card-content h5 {
+    font-style: italic;
+    font-weight: 500;
+}
+.date-text {
+    text-align: center;
+    right: 1%;
+    left: 1%;
+    width: 11rem;
+    background-color: rgb(127, 127, 180);
+}
+.date-text p {
+    font-size: 0.9rem;
+}
+
+.rendered h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
