@@ -1,9 +1,11 @@
 .card {
     margin-bottom: 1rem;
-    padding-right: 10rem;
-    /* border: 1px solid black; */
-    width: 22rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    border-left: 4px dotted black;
+    
 }
+
 .card-content h2 {
     font-size: 1rem;
 }
@@ -17,6 +19,8 @@
     left: 1%;
     width: 11rem;
     background-color: rgb(127, 127, 180);
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
 }
 .date-text p {
     font-size: 0.9rem;
@@ -25,4 +29,14 @@
 .rendered h1 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
+}
+.rendered button {
+    border: none;
+    background-color: aliceblue;
+    font-size: 1rem;
+}
+.rendered button:hover {
+    color: rgb(127, 127, 180);
+    font-size: 1.1rem;
+    cursor:pointer;
 }

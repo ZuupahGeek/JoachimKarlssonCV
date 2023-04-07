@@ -18,7 +18,7 @@ const ResumeComponent = ({resumeList = [{}], heading}) => {
         setShowMore(1)
       }
     }
-// .splice(0, showMore)
+
     const resumeListMap = resumeList.slice(0, showMore).map(
       (element, id) => {
         return (

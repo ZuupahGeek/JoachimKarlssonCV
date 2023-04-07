@@ -5,6 +5,8 @@ import Navbar from './components/navbar/Navbar';
 import Home from './views/Home'
 import About from './views/About';
 import Resume from './views/Resume';
+import Projects from './views/Projects';
+import Contact from './views/Contact';
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       <div className="d-flex">
         <div><Navbar /></div>
       
-        <div>    
+        <div id='views'>    
           <div id="home">
             <Home />
           </div>
@@ -21,6 +23,12 @@ function App() {
           </div>
           <div id="resume">
             <Resume />
+          </div>
+          <div id="projects">
+            <Projects />
+          </div>
+          <div id="contact">
+            <Contact />
           </div>
         </div>
       </div>

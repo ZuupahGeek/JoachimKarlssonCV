@@ -1,6 +1,7 @@
 .about-page {
     padding-left: 21rem;
-    background-color: aliceblue;
+    background-color: rgb(233, 210, 183);
+    padding-bottom: 2rem;
 }
 .about-page h1{
     z-index: 3;

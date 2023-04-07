@@ -48,12 +48,12 @@ const Navbar = () => {
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="/#about">
+          <HashLink smooth to="/#projects">
             <i className="fa-solid fa-briefcase"></i> <span>Projects</span>
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="/#about">
+          <HashLink smooth to="/#contact">
             <i className="fa-solid fa-address-card"></i> <span>Contact</span> 
           </HashLink>
         </li>
